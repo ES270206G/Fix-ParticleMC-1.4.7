@@ -1,0 +1,33 @@
+# --- Java and other trash I don't want ---
+# Get out of here, compiled files!
+*.class
+# Nobody reads the logs anyway
+*.log
+# The final JAR goes to Releases, not here, homey
+*.jar
+
+# --- MCP stuff (Old school tools) ---
+# This folders are for the machine, not for the repo
+bin/
+temp/
+reobf/
+lib/
+logs/
+
+# --- IDEs and personal mess ---
+# I don't care if you use VS Code or Notepad, don't upload your config
+.project
+.classpath
+.settings/
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# --- OS Garbage ---
+# Mac and Windows put trash files everywhere
+.DS_Store
+Thumbs.db
+
+# --- Final message ---
+# If it's not a .java, a .md or the manifest, stay away!
